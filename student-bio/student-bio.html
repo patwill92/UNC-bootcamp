@@ -11,24 +11,55 @@
     body{
       font-family: 'Roboto', sans-serif;
     }
+    header {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 5px 0;
+    }
+    .section-1, .section-2{
+      float: left;
+    }
+
+    .section-1{
+      width: 70%;
+    }
+
+    .section-2{
+      width: 30%;
+    }
+
+    .sub-1, .sub-2{
+      float: left;
+    }
+
+    .sub-2{
+      width: 40%;
+      margin-left: 20px;
+    }
+
   </style>
 </head>
 <body>
-    <div>
+    <header>
       <h1>Student Bio</h1>
+    </header>
+    <section class="section-1">
       <h3>Patrick Williams</h3>
-    </div>
-    <div>
-      <img src="Hunter.jpeg" alt="Cute Puppy">
-      <p>Hi! I'm Patrick, a student at the UNC coding bootcamp. The cute furry thing in the picture is my dog, Hunter.</p>
-    </div>
-    <div>
+      <div class="sub-1">
+        <img src="Hunter.jpeg" alt="Cute Puppy">
+      </div>
+      <div class="sub-2">
+        <p>Hi! I'm Patrick, a student at the UNC coding bootcamp. The cute furry thing in the picture is my dog, Hunter.</p>
+      </div>
+    </section>
+    <section class="section-2">
       <h3>Contact Info</h3>
       <ul>
         <li>Email: <a href="mailto:patrick.rw92@gmail.com">patrick.rw92@gmail.com</a></li>
         <li>Github: <a href="https://github.com/patwill92">My Github</a></li>
         <li>Portfolio: <a href="#">Coming Soon</a></li>
       </ul>
-    </div>
+    </section>
 </body>
 </html>
