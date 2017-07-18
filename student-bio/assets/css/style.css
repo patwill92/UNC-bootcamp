@@ -1,0 +1,25 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+.section-1, .section-2, .sub-1, .sub-2{
+  float: left;
+}
+
+.section-1{
+  width: 70%;
+}
+
+.section-2{
+  width: 30%;
+}
+
+.sub-2{
+  width: 40%;
+  margin-left: 20px;
+}
