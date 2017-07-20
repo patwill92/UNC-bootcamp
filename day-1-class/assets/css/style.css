@@ -1,0 +1,68 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #ccc;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+footer {
+  color: white;
+  margin-top: 10px;
+  padding: 5px 0;
+  background: gray;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: '';
+  display: inline-block;
+  clear: both;
+}
+
+.clearfix {
+  position: relative;
+}
+
+.second {
+  padding: 20px 0 20px 0;
+  background: #6ea3da;
+}
+
+aside {
+  position: absolute;
+  top: 15px;
+  margin-left: 30px;
+}
+
+.first {
+  padding: 5px 0;
+
+}
+
+.container {
+  background: #eee;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+}
+
+.one, .two, .three {
+  float: left;
+  padding: 5px 0;
+  width: 33.33%;
+  color: white;
+  text-align: center;
+}
+
+.three, .one {
+  background: #666;
+}
+
+.two {
+  background: #888;
+}

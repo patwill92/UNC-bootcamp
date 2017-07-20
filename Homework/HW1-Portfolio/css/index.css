@@ -1,0 +1,14 @@
+.img-title {
+  text-align: center;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  background: #4AAAA5;
+  position: absolute;
+  bottom: 30px;
+}
+
+footer{
+  width: 100% !important;
+}
